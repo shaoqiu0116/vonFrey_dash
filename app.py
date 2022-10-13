@@ -29,7 +29,7 @@ app.layout = html.Div([
         children=html.Div(['Drag and Drop or ',
                            html.A('Select Files')]),
         style={
-            'width': '95%',
+            'width': '98%',
             'height': '60px',
             'lineHeight': '60px',
             'borderWidth': '1px',
