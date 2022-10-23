@@ -43,7 +43,7 @@ app.layout = html.Div([
     html.Div(id='output-data-upload')
 ])
 
-url = 'https://drive.google.com/uc?id=1GEkbOw68SgWtJrsT6oUMheCmdSaAV2Yk'
+url = 'https://raw.githubusercontent.com/shaoqiu0116/vonfrey-dash/main/force_lookup_table.csv'
 table_df = pd.read_csv(url, index_col='No.')
 
 
